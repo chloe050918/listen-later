@@ -1,0 +1,66 @@
+{
+  "verified_at": "2026-10-11T05:53:24.473418+00:00",
+  "environment": {
+    "os": "Darwin",
+    "machine": "arm64",
+    "python": "3.9.6",
+    "isolated_venv": true,
+    "second_physical_machine": false
+  },
+  "clean_install": {
+    "installed": true,
+    "network_timeout_then_successful_retry": true,
+    "locked_repeat_setup": true
+  },
+  "portability": {
+    "clean_venv_without_credentials": true,
+    "port_conflict_auto_avoided": true,
+    "empty_start_without_author_files": true,
+    "keyless_demo_idempotent": true,
+    "demo_media_and_notes_accessible": true,
+    "private_config_not_served": true,
+    "repeated_import_deduplicated": true,
+    "missing_key_clear_error_before_job": true,
+    "production_doctor_fails_without_credentials": true
+  },
+  "regressions": {
+    "config_refresh_after_preview": true,
+    "valid_two_voice_draft": true,
+    "unknown_source_rejected": true,
+    "single_voice_rejected": true,
+    "bad_chapter_index_rejected": true,
+    "empty_notes_rejected": true,
+    "interrupted_synthesis_preserves_stage": true
+  },
+  "real_generation": {
+    "real_new_generation": true,
+    "provider": "volc_tts_2.0",
+    "duration_seconds": 47.936,
+    "mp3_duration_seconds": 47.936,
+    "two_voices": true,
+    "turns": 9,
+    "all_chapters_match_audio": true,
+    "full_audio_decode": true,
+    "repeat_finish_no_regeneration": true,
+    "one_job_one_episode": true,
+    "no_new_materials_skips": true,
+    "notes_http_200": true
+  },
+  "browser": {
+    "full_app_visible": true,
+    "demo_audio_duration": 165.956,
+    "chapter_seek_seconds": 46.687302,
+    "three_images_loaded": true,
+    "new_episode_visible": true,
+    "file_protocol_preview": "not_browser_tested_policy_disallowed"
+  },
+  "skill_format_validation": "pass",
+  "unverified": [
+    "Windows",
+    "Linux",
+    "WorkBuddy",
+    "fresh_Codex_account_auto_discovery",
+    "new_user_platform_logins",
+    "cross_day_scheduling"
+  ]
+}

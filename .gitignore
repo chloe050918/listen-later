@@ -1,0 +1,10 @@
+# Local credentials and runtime state
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+.listen-later/
