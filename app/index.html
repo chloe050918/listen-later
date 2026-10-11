@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f5ef"><title>稍后听 · 把收藏听进生活</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<aside class="sidebar"><a class="brand" href="#home"><span class="brand-icon">◖◗</span><span>稍后听<small>LISTEN LATER</small></span></a><p class="nav-label">你的私人电台</p><nav><a href="#home" data-nav="home"><span>◉</span> 待听收藏 <b id="source-count">—</b></a><a href="#episodes" data-nav="episodes"><span>≋</span> 我的节目 <b id="episode-count">—</b></a></nav><div class="sidebar-bottom"><div class="small-orbit"></div><p>那些想看的，<br>都值得好好听。</p><small>为好奇心留一点时间</small></div></aside>
+<div class="shell"><header class="topbar"><span id="breadcrumb">待听收藏</span><span class="top-note">把收藏，听进生活里。</span><button class="btn small" data-action="add">＋ 添加内容</button></header><main id="app"><div class="empty">正在打开你的收藏…</div></main></div>
+<div id="selection-bar" hidden></div>
+<div class="player" id="player" hidden><div class="player-cover" id="player-cover">稍<br>后听</div><div class="player-name"><button id="player-title" data-action="current-episode">稍后听</button><small id="player-chapter">双人对谈</small></div><button class="play round" id="play-toggle" aria-label="播放">▶</button><button class="rewind" id="rewind" aria-label="后退10秒">↶<small>10</small></button><div class="scrubber"><label class="sr" for="seek">播放进度</label><input type="range" id="seek" min="0" max="1" step=".1" value="0"><div class="times"><span id="elapsed">00:00</span><span id="duration">00:00</span></div></div><button class="speed" id="speed" aria-label="播放速度1倍">1×</button><a id="audio-download" class="download" download>下载 ↓</a></div>
+<audio id="audio" preload="metadata"></audio>
+<dialog id="modal"><div id="modal-content"></div></dialog><div id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js"></script></body></html>
